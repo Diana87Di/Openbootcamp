@@ -1,0 +1,28 @@
+public class Main {
+    public static void main(String[] args)  {
+        // Primer ejercicio:
+        int resultado;
+        resultado = suma(10,15,5);
+        System.out.println(resultado);
+    }
+    //  Segundo ejercicio:
+    {
+        coche miCoche = new coche();
+        miCoche.sumarpuerta();
+        System.out.println(miCoche.puertas);
+    }
+    //  Funcion ejercicio 1:
+    public static int suma(int a, int b, int c) {
+
+        return a + b + c;
+    }
+    //  Segundo ejercicio:
+
+    class coche  {
+        public int puertas = 4;
+        public void  sumarpuerta ()  {
+            this.puertas++;
+        }
+    }
+
+}
